@@ -1,0 +1,4 @@
+  File "Hello_World.py", line 82
+    print "Pardon me, I am extremely tired now. 6 seconds breakint str(6-i) + '.'
+                                                                                ^
+SyntaxError: EOL while scanning string literal

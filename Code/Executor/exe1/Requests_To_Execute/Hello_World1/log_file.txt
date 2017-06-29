@@ -1,0 +1,5 @@
+I am going to random weather I will raise an exception or not.. (33 %)
+Traceback (most recent call last):
+  File "Hello_World.py", line 81, in <module>
+    raise Exception('Oh, no luck for me :S')
+Exception: Oh, no luck for me :S
