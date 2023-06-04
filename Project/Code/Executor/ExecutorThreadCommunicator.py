@@ -79,7 +79,7 @@ class Receive(MyThread):
 
             # Receive a message from the server only if there is something to receive. Every 1 second check if the
             # executor has to shut down.
-            in_message, out_message, err_message = select.select([self.socket], [self.socket], [], 1)
+            in_message, out_message, err_message = select.select([self.socket], [self.socket], [], 4)
 
             if in_message:
 
